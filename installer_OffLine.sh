@@ -34,7 +34,7 @@ version="SCPT_3.9.8"
 dsm_version=$(cat /etc.defaults/VERSION | grep productversion | sed 's/productversion=//' | tr -d '"')
 majorversion=$(cat /etc.defaults/VERSION | grep majorversion | sed 's/majorversion=//' | tr -d '"')
 minorversion=$(cat /etc.defaults/VERSION | grep minorversion | sed 's/minorversion=//' | tr -d '"')
-repo_url="https://raw.githubusercontent.com/darknebular/Wrapper_VideoStation"
+repo_url="https://mirror.ghproxy.com/https://raw.githubusercontent.com/darknebular/Wrapper_VideoStation"
 setup="start"
 dependencias=("VideoStation" "ffmpeg6" "CodecPack")
 RED="\u001b[31m"
